@@ -10,9 +10,9 @@ Download the latest release for your platform from the [Releases](../../releases
 
 | Platform | File |
 |---|---|
-| Windows x64 | `fbinds-win-x64.zip` |
-| macOS x64 | `fbinds-osx-x64.tar.gz` |
-| macOS ARM | `fbinds-osx-arm64.tar.gz` |
+| Windows x64 | `fbinds-windows.zip` |
+| macOS x64 | `fbinds-macos-intel.zip` |
+| macOS ARM | `fbinds-macos-m.zip` |
 
 Extract and run `fbinds-installer`. The app will be installed on your system.
 
