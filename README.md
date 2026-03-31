@@ -12,7 +12,7 @@ Download the latest release for your platform from the [Releases](../../releases
 |---|---|
 | Windows x64 | `fbinds-windows.zip` |
 | macOS x64 | `fbinds-macos-intel.zip` |
-| macOS ARM | `fbinds-macos-m.zip` |
+| macOS ARM | `fbinds-macos-apple-silicon` |
 
 Extract and run `fbinds-installer`. The app will be installed on your system.
 
