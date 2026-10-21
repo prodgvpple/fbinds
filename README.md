@@ -1,8 +1,10 @@
 # fbinds
 
-Custom keyboard shortcuts for FL Studio. Runs in the system tray, detects when FL Studio is focused, and remaps key combinations to FL Studio's native shortcuts.
+Custom keyboard shortcuts for FL Studio. Runs in the system tray (Windows) or menu bar (macOS), detects when FL Studio is focused, and remaps key combinations to FL Studio's native shortcuts.
 
-Works on **Windows** and **macOS**.
+Works on **Windows** and **macOS 14 or later**.
+
+**Current version: 1.1.0**
 
 ## Install
 
@@ -10,12 +12,24 @@ Download the latest release for your platform from the [Releases](../../releases
 
 | Platform | File |
 |---|---|
-| Windows x64 | `fbinds-windows.zip` |
-| macOS Intel | `fbinds-macos-intel.zip` |
-| macOS Apple Silicon | `fbinds-macos-apple-silicon` |
+| Windows x64 | `fbinds1.1.0-windows.zip` |
+| macOS Intel | `fbinds1.1.0-macos-intel.zip` |
+| macOS Apple Silicon | `fbinds1.1.0-macos-silicon.zip` |
 
-Extract and run `fbinds-installer`. The app will be installed on your system.
+**Windows:** extract the zip and run `fbinds.msi`. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway** (the installer is self-signed).
 
-## Auto-Update
+**macOS:** extract the zip and open `fbinds.pkg`. If macOS blocks it, open **System Settings → Privacy & Security** and click **Open Anyway**. On first launch, allow fbinds under **Privacy & Security → Accessibility** so it can remap shortcuts.
 
-The app checks for updates on every launch. When a new version is available, a dialog prompts you to update. The download, file replacement, and restart happen automatically.
+fbinds starts automatically at login. Click its icon to open the main window and customise shortcuts.
+
+## Updates
+
+fbinds checks this repository's releases for a new version each time it starts. When one is available, it shows the release notes and a button to the download page. Install the new version over the old one; your shortcuts and settings are kept.
+
+## Privacy
+
+fbinds never records, stores or sends what you type. It has no accounts, analytics or telemetry; the only network request is the update check above. Details: [PRIVACY.md](PRIVACY.md).
+
+## Support
+
+contact@prodgvpple.com
